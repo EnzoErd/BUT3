@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "tri_insertion.h": "c",
+        "tri_selection.h": "c"
+    }
+}
