@@ -1,0 +1,21 @@
+ssh -J o22108393@acces-tp.iut45.univ-orleans.fr -o StrictHostKeyChecking=no o22108393@172.16.3.44
+sudo neo4j start
+
+56dczq 
+
+Autre terminal:
+
+ssh -L 7474:172.16.3.44:7474 -L 7687:172.16.3.44:7687 -N o22108393@acces-tp.iut45.univ-orleans.fr
+
+
+neo4j
+
+neo4jpw4neo4j
+
+
+
+MATCH(n) detach delete n
+
+match(n) return n
+
+http://127.0.0.1:7474

@@ -1,0 +1,36 @@
+        -:    0:Source:assertion.c
+        -:    0:Graph:main-assertion.gcno
+        -:    0:Data:main-assertion.gcda
+        -:    0:Runs:5
+        -:    1:#include <stdio.h>
+        -:    2:#include <stdlib.h>
+        -:    3:#include <time.h>
+        -:    4:#include <ctype.h>
+        -:    5:#include <assert.h>
+        -:    6:
+        -:    7:enum alphabet
+        -:    8:{
+        -:    9:    A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z
+        -:   10:};
+        -:   11:
+        -:   12:_Static_assert(Z == 25, "Alphabet incomplet" );
+        -:   13:
+        5:   14:int main(int argc, char * argv[])
+        -:   15:{
+       5*:   16:    assert(argc>1);
+       74:   17:    for (int i = 1; i < argc; i++)
+        -:   18:    {
+       69:   19:    int toControl = toupper(argv[i] [0]) - 65;
+       69:   20:    switch(toControl)
+        -:   21:        {
+        7:   22:            case A: printf("Voyelle - A \n"); break;
+        3:   23:            case E: printf("Voyelle - E \n"); break;
+        2:   24:            case I: printf("Voyelle - I \n"); break;
+        2:   25:            case O: printf("Voyelle - O \n"); break;
+        2:   26:            case U: printf("Voyelle - U \n"); break;
+        2:   27:            case Y: printf("Voyelle - Y \n"); break;
+       51:   28:            default: printf("Pas une voyelle %c \n",argv[i] [0]); break;
+        -:   29:        }
+        -:   30:    }
+        5:   31:    return 0;
+        -:   32:}

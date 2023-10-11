@@ -1,0 +1,1 @@
+gcc main.c tri_insertion.c tri_selection.c -o tri

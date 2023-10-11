@@ -1,0 +1,202 @@
+desc: (none)
+cmd: ./sortie
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=165818
+mem_heap_B=16
+mem_heap_extra_B=8
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=2
+#-----------
+time=165874
+mem_heap_B=32
+mem_heap_extra_B=16
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=165940
+mem_heap_B=48
+mem_heap_extra_B=24
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=166006
+mem_heap_B=64
+mem_heap_extra_B=32
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=166072
+mem_heap_B=80
+mem_heap_extra_B=40
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=6
+#-----------
+time=166143
+mem_heap_B=96
+mem_heap_extra_B=48
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=166249
+mem_heap_B=112
+mem_heap_extra_B=56
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=166355
+mem_heap_B=128
+mem_heap_extra_B=64
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=166451
+mem_heap_B=144
+mem_heap_extra_B=72
+mem_stacks_B=0
+heap_tree=detailed
+n3: 144 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n4: 64 0x1094F0: ajouterEnTete (liste.c:30)
+  n0: 16 0x10923C: main (main.c:13)
+  n0: 16 0x10924D: main (main.c:14)
+  n0: 16 0x10925E: main (main.c:15)
+  n0: 16 0x10926F: main (main.c:16)
+ n4: 64 0x109556: inserer (liste.c:41)
+  n0: 16 0x109285: main (main.c:17)
+  n0: 16 0x10929B: main (main.c:18)
+  n0: 16 0x1092B1: main (main.c:19)
+  n0: 16 0x1092C7: main (main.c:20)
+ n1: 16 0x10943D: creerListe (liste.c:6)
+  n0: 16 0x109227: main (main.c:12)
+#-----------
+snapshot=10
+#-----------
+time=166542
+mem_heap_B=160
+mem_heap_extra_B=80
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=166608
+mem_heap_B=176
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=12
+#-----------
+time=166674
+mem_heap_B=192
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=166779
+mem_heap_B=192
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=detailed
+n3: 192 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n7: 112 0x1094F0: ajouterEnTete (liste.c:30)
+  n0: 16 0x10923C: main (main.c:13)
+  n0: 16 0x10924D: main (main.c:14)
+  n0: 16 0x10925E: main (main.c:15)
+  n0: 16 0x10926F: main (main.c:16)
+  n0: 16 0x1092D8: main (main.c:21)
+  n0: 16 0x1092E9: main (main.c:22)
+  n0: 16 0x1092FA: main (main.c:23)
+ n4: 64 0x109556: inserer (liste.c:41)
+  n0: 16 0x109285: main (main.c:17)
+  n0: 16 0x10929B: main (main.c:18)
+  n0: 16 0x1092B1: main (main.c:19)
+  n0: 16 0x1092C7: main (main.c:20)
+ n1: 16 0x10943D: creerListe (liste.c:6)
+  n0: 16 0x109227: main (main.c:12)
+#-----------
+snapshot=14
+#-----------
+time=166779
+mem_heap_B=176
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=167348
+mem_heap_B=1200
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=191268
+mem_heap_B=1200
+mem_heap_extra_B=96
+mem_stacks_B=0
+heap_tree=peak
+n4: 1200 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n1: 1024 0x48EDC23: _IO_file_doallocate (filedoalloc.c:101)
+  n1: 1024 0x48FCD5F: _IO_doallocbuf (genops.c:347)
+   n1: 1024 0x48FBFDF: _IO_file_overflow@@GLIBC_2.2.5 (fileops.c:744)
+    n1: 1024 0x48FA754: _IO_new_file_xsputn (fileops.c:1243)
+     n1: 1024 0x48FA754: _IO_file_xsputn@@GLIBC_2.2.5 (fileops.c:1196)
+      n1: 1024 0x48E4D28: outstring_func (vfprintf-internal.c:239)
+       n1: 1024 0x48E4D28: __vfprintf_internal (vfprintf-internal.c:1516)
+        n1: 1024 0x48CF81E: printf (printf.c:33)
+         n1: 1024 0x1096F6: afficherListe (liste.c:88)
+          n0: 1024 0x109317: main (main.c:25)
+ n7: 96 0x1094F0: ajouterEnTete (liste.c:30)
+  n0: 16 0x10923C: main (main.c:13)
+  n0: 16 0x10924D: main (main.c:14)
+  n0: 16 0x10925E: main (main.c:15)
+  n0: 16 0x10926F: main (main.c:16)
+  n0: 16 0x1092E9: main (main.c:22)
+  n0: 16 0x1092FA: main (main.c:23)
+  n0: 0 in 1 place, below massif's threshold (1.00%)
+ n4: 64 0x109556: inserer (liste.c:41)
+  n0: 16 0x109285: main (main.c:17)
+  n0: 16 0x10929B: main (main.c:18)
+  n0: 16 0x1092B1: main (main.c:19)
+  n0: 16 0x1092C7: main (main.c:20)
+ n1: 16 0x10943D: creerListe (liste.c:6)
+  n0: 16 0x109227: main (main.c:12)
+#-----------
+snapshot=17
+#-----------
+time=191268
+mem_heap_B=176
+mem_heap_extra_B=88
+mem_stacks_B=0
+heap_tree=empty

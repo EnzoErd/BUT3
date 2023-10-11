@@ -1,7 +1,10 @@
 {
     "files.associations": {
+        "*.embeddedhtml": "html",
         "stdio.h": "c",
         "tri_insertion.h": "c",
-        "tri_selection.h": "c"
-    }
+        "tri_selection.h": "c",
+        "time.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "disabled"
 }

@@ -1,0 +1,55 @@
+idMovie,boxOffice,movieName,class,year,director
+1,775,Star Wars: Episode IV - A New Hope,PG,1977,Georges Lucas
+2,538,Star Wars: Episode V - The Empire Strikes Back,PG,1980,Irvin Kershner
+3,475,Star Wars: Episode VI - Return of the Jedi,PG,1983,Richard Marquand
+4,1027,Star Wars: Episode I - The Phantom Menace,PG,1999,Georges Lucas
+5,653,Star Wars: Episode II - Attack of the Clones,PG,2002,Georges Lucas
+6,868,Star Wars: Episode III - Revenge of the Sith,PG,2005,Georges Lucas
+7,2071,Star Wars: Episode VII - The Force Awakens,PG-13,2015,J.J. Abrams
+8,1334,Star Wars: Episode VIII - The Last Jedi,PG-13,2017,Rian Johnson
+9,1077,Star Wars: Episode IX - The Rise of Skywalker,PG-13,2019,J.J. Abrams
+10,390,Indiana Jones and the Raiders of the Lost Ark,PG,1981,Steven Spielberg
+11,333,Indiana Jones and the Temple of Doom,PG,1984,Steven Spielberg
+12,474,Indiana Jones and the Last Crusade,PG-13,1989,Steven Spielberg
+13,790,Indiana Jones and the Kingdom of the Crystal Skull,PG-13,2008,Steven Spielberg
+14,,Indiana Jones and the Dial of Destiny,PG-13,2023,James Mangold
+15,394,Toy Story,G,1995,John Lasseter
+16,497,Toy Story 2,G,1999,John Lasseter
+17,1067,Toy Story 3,G,2010,Lee Unkrich
+18,1073,Toy Story 4,G,2019,Josh Cooley
+19,103,Saw,R,2004,James Wan 
+20,147,Saw 2,R,2005,Darren Lynn Bousman
+21,164,Saw 3,R,2006,Darren Lynn Bousman
+22,139,Saw 4,R,2007,Darren Lynn Bousman
+23,113,Saw 5,R,2008,David Hackl
+24,68,Saw 6,R,2009,J.J. Abrams
+25,136,Saw Final Chapter,R,2010,J.J. Abrams
+26,201,21 Jump Street,R,2012,Phil Lord
+27,331,22 Jump Street,R,2014,Phil Lord
+28,170,The Other Guys,PG-13,2010,Adam McKay
+29,898,The Lord of the Rings: The Fellowship of the Ring,PG-13,2001,Petter Jackson
+30,947,The Lord of the Rings: The Two Towers,PG-13,2002,Petter Jackson
+31,1147,The Lord of the Rings: The Return of the King,PG-13,2003,Petter Jackson
+32,1017,The Hobbit: An Unexpected Journey,PG-13,2012,Petter Jackson
+33,959,The Hobbit: The Desolation of Smaug,PG-13,2013,Petter Jackson
+34,962,The Hobbit: The Battle of the Five Armies,PG-13,2014,Petter Jackson
+35,654,Pirates of the Caribbean The Curse of the Black Pearl,PG-13,2003,Gore Verbinski
+36,1066,Pirates of the Caribbean Dead Man's Chest,PG-13,2006,Gore Verbinski
+37,961,Pirates of the Caribbean At World's End,PG-13,2007,Gore Verbinski
+38,1046,Pirates of the Caribbean On Stranger Tides,PG-13,2011,Rob Marshall
+39,795,Pirates of the Caribbean Dead Men Tell No Tales,PG-13,2017,Joachim Rønning 
+40,469,The Hangover,R,2009,Todd Phillips
+41,586,The Hangover 2,R,2011,Todd Phillips
+42,362,The Hangover 3,R,2013,Todd Phillips
+43,1023,Harry Potter and the Sorcerer's Stone,PG,2001,Chris Columbus
+44,925,Harry Potter and the Chamber of Secrets,PG,2002,Chris Columbus
+45,797,Harry Potter and the Prisoner of Azkaban,PG,2004,Alfonso Cuarón
+46,896,Harry Potter and the Goblet of Fire,PG-13,2005,Mike Newell
+47,942,Harry Potter and the Order of the Phoenix,PG-13,2007,David Yates
+48,934,Harry Potter and the Half-Blood Prince,PG,2009,David Yates
+49,977,Harry Potter and the Deathly Hallows - Part 1,PG-13,2010,David Yates
+50,1342,Harry Potter and the Deathly Hallows - Part 2,PG-13,2011,David Yates
+51,1045,The Super Mario Bros. Movie,PG,2023,Pierre Leduc
+52,,Fantastic Beasts and Where to Find Them,PG-13,2016,David Yates
+53,654,Fantastic Beasts: The Crimes of Grindelwald,,2018,David Yates
+54,792,E.T. the Extra-Terrestrial,,1982,Steven Spielberg
